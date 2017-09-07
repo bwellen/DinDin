@@ -1,0 +1,6 @@
+framework module Pods_dindin2 {
+  umbrella header "Pods-dindin2-umbrella.h"
+
+  export *
+  module * { export * }
+}

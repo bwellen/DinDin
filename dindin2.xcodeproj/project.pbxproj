@@ -7,14 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A7EBF2D32C4EE9192E1E393 /* Pods_dindin2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B7867A011661C80C523E24 /* Pods_dindin2Tests.framework */; };
+		4B9A4FE5FB011019D859E206 /* Pods_dindin2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D18B5C1D80674C17675E86 /* Pods_dindin2.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		A695BE4239DD90F6CB3E1B3D /* Pods_dindin2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90B38C4D4B92318C86416804 /* Pods_dindin2UITests.framework */; };
+		C50ACF611F30FB8100060E1F /* MISTRESS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C59277E31F30F7F600247846 /* MISTRESS.ttf */; };
+		C530F0B61F40BD1A00B31C69 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = C530F0B51F40BD1A00B31C69 /* data.swift */; };
 		C54AA5181F28CC7C009DC717 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54AA5171F28CC7C009DC717 /* AppDelegate.swift */; };
 		C54AA51A1F28CC7C009DC717 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54AA5191F28CC7C009DC717 /* ViewController.swift */; };
 		C54AA51D1F28CC7C009DC717 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54AA51B1F28CC7C009DC717 /* Main.storyboard */; };
-		C54AA5201F28CC7C009DC717 /* dindin2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C54AA51E1F28CC7C009DC717 /* dindin2.xcdatamodeld */; };
 		C54AA5221F28CC7C009DC717 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C54AA5211F28CC7C009DC717 /* Assets.xcassets */; };
 		C54AA5251F28CC7C009DC717 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C54AA5231F28CC7C009DC717 /* LaunchScreen.storyboard */; };
 		C54AA5301F28CC7C009DC717 /* dindin2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54AA52F1F28CC7C009DC717 /* dindin2Tests.swift */; };
 		C54AA53B1F28CC7C009DC717 /* dindin2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C54AA53A1F28CC7C009DC717 /* dindin2UITests.swift */; };
+		C54AA5491F28CCC7009DC717 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C54AA5481F28CCC7009DC717 /* GoogleService-Info.plist */; };
+		C572D9621F2BC0B300C39DAD /* WeeklyPlannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C572D9611F2BC0B300C39DAD /* WeeklyPlannerViewController.swift */; };
+		C572D9641F2BC51500C39DAD /* WeeklyPlannerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C572D9631F2BC51500C39DAD /* WeeklyPlannerTableViewCell.swift */; };
+		C5821CE51F4AEE87002E0CEE /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5821CE41F4AEE87002E0CEE /* CheckBox.swift */; };
+		C5821CE71F4AF533002E0CEE /* ShoppingListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5821CE61F4AF533002E0CEE /* ShoppingListTableViewCell.swift */; };
+		C5821CE91F4B58D8002E0CEE /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5821CE81F4B58D8002E0CEE /* ShoppingItem.swift */; };
+		C5821CEB1F4B6884002E0CEE /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5821CEA1F4B6884002E0CEE /* DataStore.swift */; };
+		C5821CED1F4B7162002E0CEE /* AddToShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5821CEC1F4B7162002E0CEE /* AddToShoppingListViewController.swift */; };
+		C5821CEF1F4C770B002E0CEE /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5821CEE1F4C770B002E0CEE /* Image.swift */; };
+		C5821CF11F4CA5BF002E0CEE /* RecipeWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5821CF01F4CA5BF002E0CEE /* RecipeWebViewController.swift */; };
+		C58779381F421E7A007610AA /* MealPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58779371F421E7A007610AA /* MealPlan.swift */; };
+		C5D932561F28DD9400320384 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D932551F28DD9400320384 /* RegisterViewController.swift */; };
+		C5D932581F28E56000320384 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D932571F28E56000320384 /* PostViewController.swift */; };
+		C5D9325A1F2B4FB700320384 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D932591F2B4FB700320384 /* PostTableViewCell.swift */; };
+		C5D9325C1F2B528100320384 /* RecipeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D9325B1F2B528100320384 /* RecipeListViewController.swift */; };
+		C5EF207D1F35CF55007C4997 /* AddRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EF207C1F35CF55007C4997 /* AddRecipeViewController.swift */; };
+		C5EF20FF1F386F51007C4997 /* PostTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5EF20FE1F386F51007C4997 /* PostTwoViewController.swift */; };
+		C5F1D2FD1F312D6D00FE65E6 /* ShoppingListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F1D2FC1F312D6D00FE65E6 /* ShoppingListViewController.swift */; };
+		C5F1D2FF1F31329B00FE65E6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F1D2FE1F31329B00FE65E6 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +58,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11D18B5C1D80674C17675E86 /* Pods_dindin2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dindin2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD5D99643F8323E00952D4F /* Pods-dindin2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dindin2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dindin2Tests/Pods-dindin2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6B69DA785AFC38D997F136A9 /* Pods-dindin2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dindin2.release.xcconfig"; path = "Pods/Target Support Files/Pods-dindin2/Pods-dindin2.release.xcconfig"; sourceTree = "<group>"; };
+		77B7867A011661C80C523E24 /* Pods_dindin2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dindin2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B38C4D4B92318C86416804 /* Pods_dindin2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dindin2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C530F0B51F40BD1A00B31C69 /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
 		C54AA5141F28CC7C009DC717 /* dindin2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dindin2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54AA5171F28CC7C009DC717 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C54AA5191F28CC7C009DC717 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C54AA51C1F28CC7C009DC717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C54AA51F1F28CC7C009DC717 /* dindin2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dindin2.xcdatamodel; sourceTree = "<group>"; };
 		C54AA5211F28CC7C009DC717 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C54AA5241F28CC7C009DC717 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C54AA5261F28CC7C009DC717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +77,30 @@
 		C54AA5361F28CC7C009DC717 /* dindin2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dindin2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C54AA53A1F28CC7C009DC717 /* dindin2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dindin2UITests.swift; sourceTree = "<group>"; };
 		C54AA53C1F28CC7C009DC717 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C54AA5481F28CCC7009DC717 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C572D9611F2BC0B300C39DAD /* WeeklyPlannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyPlannerViewController.swift; sourceTree = "<group>"; };
+		C572D9631F2BC51500C39DAD /* WeeklyPlannerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyPlannerTableViewCell.swift; sourceTree = "<group>"; };
+		C5821CE41F4AEE87002E0CEE /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		C5821CE61F4AF533002E0CEE /* ShoppingListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListTableViewCell.swift; sourceTree = "<group>"; };
+		C5821CE81F4B58D8002E0CEE /* ShoppingItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
+		C5821CEA1F4B6884002E0CEE /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		C5821CEC1F4B7162002E0CEE /* AddToShoppingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToShoppingListViewController.swift; sourceTree = "<group>"; };
+		C5821CEE1F4C770B002E0CEE /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		C5821CF01F4CA5BF002E0CEE /* RecipeWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeWebViewController.swift; sourceTree = "<group>"; };
+		C58779371F421E7A007610AA /* MealPlan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealPlan.swift; sourceTree = "<group>"; };
+		C59277E31F30F7F600247846 /* MISTRESS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MISTRESS.ttf; sourceTree = "<group>"; };
+		C5D932551F28DD9400320384 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		C5D932571F28E56000320384 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		C5D932591F2B4FB700320384 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		C5D9325B1F2B528100320384 /* RecipeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeListViewController.swift; sourceTree = "<group>"; };
+		C5EF207C1F35CF55007C4997 /* AddRecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddRecipeViewController.swift; sourceTree = "<group>"; };
+		C5EF20FE1F386F51007C4997 /* PostTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTwoViewController.swift; sourceTree = "<group>"; };
+		C5F1D2FC1F312D6D00FE65E6 /* ShoppingListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListViewController.swift; sourceTree = "<group>"; };
+		C5F1D2FE1F31329B00FE65E6 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D585A9314E1408F48E3BF481 /* Pods-dindin2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dindin2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dindin2/Pods-dindin2.debug.xcconfig"; sourceTree = "<group>"; };
+		E8B7270FE644963AB068312C /* Pods-dindin2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dindin2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dindin2UITests/Pods-dindin2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC9713587570B824EA94E669 /* Pods-dindin2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dindin2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dindin2Tests/Pods-dindin2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F796DD1D6AF1128EBE5B33EF /* Pods-dindin2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dindin2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-dindin2UITests/Pods-dindin2UITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B9A4FE5FB011019D859E206 /* Pods_dindin2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A7EBF2D32C4EE9192E1E393 /* Pods_dindin2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +124,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A695BE4239DD90F6CB3E1B3D /* Pods_dindin2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73628E241E9B4D6DDECB8CEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11D18B5C1D80674C17675E86 /* Pods_dindin2.framework */,
+				77B7867A011661C80C523E24 /* Pods_dindin2Tests.framework */,
+				90B38C4D4B92318C86416804 /* Pods_dindin2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E25AD3B8D83944AAB3FE155 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D585A9314E1408F48E3BF481 /* Pods-dindin2.debug.xcconfig */,
+				6B69DA785AFC38D997F136A9 /* Pods-dindin2.release.xcconfig */,
+				EC9713587570B824EA94E669 /* Pods-dindin2Tests.debug.xcconfig */,
+				1DD5D99643F8323E00952D4F /* Pods-dindin2Tests.release.xcconfig */,
+				E8B7270FE644963AB068312C /* Pods-dindin2UITests.debug.xcconfig */,
+				F796DD1D6AF1128EBE5B33EF /* Pods-dindin2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C54AA50B1F28CC7C009DC717 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +161,8 @@
 				C54AA52E1F28CC7C009DC717 /* dindin2Tests */,
 				C54AA5391F28CC7C009DC717 /* dindin2UITests */,
 				C54AA5151F28CC7C009DC717 /* Products */,
+				9E25AD3B8D83944AAB3FE155 /* Pods */,
+				73628E241E9B4D6DDECB8CEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +179,33 @@
 		C54AA5161F28CC7C009DC717 /* dindin2 */ = {
 			isa = PBXGroup;
 			children = (
+				C59277E31F30F7F600247846 /* MISTRESS.ttf */,
+				C530F0B51F40BD1A00B31C69 /* data.swift */,
 				C54AA5171F28CC7C009DC717 /* AppDelegate.swift */,
 				C54AA5191F28CC7C009DC717 /* ViewController.swift */,
+				C5D932551F28DD9400320384 /* RegisterViewController.swift */,
+				C5EF207C1F35CF55007C4997 /* AddRecipeViewController.swift */,
+				C5D932571F28E56000320384 /* PostViewController.swift */,
+				C5EF20FE1F386F51007C4997 /* PostTwoViewController.swift */,
+				C5D932591F2B4FB700320384 /* PostTableViewCell.swift */,
+				C5D9325B1F2B528100320384 /* RecipeListViewController.swift */,
+				C572D9631F2BC51500C39DAD /* WeeklyPlannerTableViewCell.swift */,
+				C572D9611F2BC0B300C39DAD /* WeeklyPlannerViewController.swift */,
+				C5821CE41F4AEE87002E0CEE /* CheckBox.swift */,
+				C5F1D2FC1F312D6D00FE65E6 /* ShoppingListViewController.swift */,
+				C5821CE61F4AF533002E0CEE /* ShoppingListTableViewCell.swift */,
+				C5821CEC1F4B7162002E0CEE /* AddToShoppingListViewController.swift */,
+				C5821CE81F4B58D8002E0CEE /* ShoppingItem.swift */,
+				C5821CEA1F4B6884002E0CEE /* DataStore.swift */,
+				C5821CEE1F4C770B002E0CEE /* Image.swift */,
+				C5F1D2FE1F31329B00FE65E6 /* ProfileViewController.swift */,
+				C58779371F421E7A007610AA /* MealPlan.swift */,
+				C5821CF01F4CA5BF002E0CEE /* RecipeWebViewController.swift */,
 				C54AA51B1F28CC7C009DC717 /* Main.storyboard */,
-				C54AA5211F28CC7C009DC717 /* Assets.xcassets */,
 				C54AA5231F28CC7C009DC717 /* LaunchScreen.storyboard */,
+				C54AA5211F28CC7C009DC717 /* Assets.xcassets */,
 				C54AA5261F28CC7C009DC717 /* Info.plist */,
-				C54AA51E1F28CC7C009DC717 /* dindin2.xcdatamodeld */,
+				C54AA5481F28CCC7009DC717 /* GoogleService-Info.plist */,
 			);
 			path = dindin2;
 			sourceTree = "<group>";
@@ -135,9 +235,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C54AA53F1F28CC7C009DC717 /* Build configuration list for PBXNativeTarget "dindin2" */;
 			buildPhases = (
+				97F39289B9D2FC641F1EE3F3 /* [CP] Check Pods Manifest.lock */,
 				C54AA5101F28CC7C009DC717 /* Sources */,
 				C54AA5111F28CC7C009DC717 /* Frameworks */,
 				C54AA5121F28CC7C009DC717 /* Resources */,
+				CAE754CB445C9B5B8EC71CDE /* [CP] Embed Pods Frameworks */,
+				600C8FB35A183FD4683E173D /* [CP] Copy Pods Resources */,
+				C5331DBC1F4D9CF500625088 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -152,9 +256,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C54AA5421F28CC7C009DC717 /* Build configuration list for PBXNativeTarget "dindin2Tests" */;
 			buildPhases = (
+				50E073C5B36F105647A6A1E8 /* [CP] Check Pods Manifest.lock */,
 				C54AA5271F28CC7C009DC717 /* Sources */,
 				C54AA5281F28CC7C009DC717 /* Frameworks */,
 				C54AA5291F28CC7C009DC717 /* Resources */,
+				9C333CC7A3DAFD3A9CDB9B2C /* [CP] Embed Pods Frameworks */,
+				8247F1E0333B080F1A3D5F98 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +277,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C54AA5451F28CC7C009DC717 /* Build configuration list for PBXNativeTarget "dindin2UITests" */;
 			buildPhases = (
+				7A75EF3C3BD5F2371965E436 /* [CP] Check Pods Manifest.lock */,
 				C54AA5321F28CC7C009DC717 /* Sources */,
 				C54AA5331F28CC7C009DC717 /* Frameworks */,
 				C54AA5341F28CC7C009DC717 /* Resources */,
+				5F4623A47DA0F4B40E870F2D /* [CP] Embed Pods Frameworks */,
+				C659160D5510B32E10553029 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,8 +348,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C50ACF611F30FB8100060E1F /* MISTRESS.ttf in Resources */,
 				C54AA5251F28CC7C009DC717 /* LaunchScreen.storyboard in Resources */,
 				C54AA5221F28CC7C009DC717 /* Assets.xcassets in Resources */,
+				C54AA5491F28CCC7009DC717 /* GoogleService-Info.plist in Resources */,
 				C54AA51D1F28CC7C009DC717 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,14 +372,183 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		50E073C5B36F105647A6A1E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F4623A47DA0F4B40E870F2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dindin2UITests/Pods-dindin2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		600C8FB35A183FD4683E173D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dindin2/Pods-dindin2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A75EF3C3BD5F2371965E436 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8247F1E0333B080F1A3D5F98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dindin2Tests/Pods-dindin2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97F39289B9D2FC641F1EE3F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C333CC7A3DAFD3A9CDB9B2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dindin2Tests/Pods-dindin2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5331DBC1F4D9CF500625088 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FILE=\"${SRCROOT}/HockeySDK-iOS/BuildAgent\"\nif [ -f \"$FILE\" ]; then\n\"$FILE\"\nfi";
+		};
+		C659160D5510B32E10553029 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dindin2UITests/Pods-dindin2UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAE754CB445C9B5B8EC71CDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dindin2/Pods-dindin2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C54AA5101F28CC7C009DC717 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5821CE91F4B58D8002E0CEE /* ShoppingItem.swift in Sources */,
+				C5D9325C1F2B528100320384 /* RecipeListViewController.swift in Sources */,
+				C5821CF11F4CA5BF002E0CEE /* RecipeWebViewController.swift in Sources */,
+				C5821CE71F4AF533002E0CEE /* ShoppingListTableViewCell.swift in Sources */,
+				C5EF20FF1F386F51007C4997 /* PostTwoViewController.swift in Sources */,
 				C54AA51A1F28CC7C009DC717 /* ViewController.swift in Sources */,
+				C5F1D2FF1F31329B00FE65E6 /* ProfileViewController.swift in Sources */,
 				C54AA5181F28CC7C009DC717 /* AppDelegate.swift in Sources */,
-				C54AA5201F28CC7C009DC717 /* dindin2.xcdatamodeld in Sources */,
+				C5821CED1F4B7162002E0CEE /* AddToShoppingListViewController.swift in Sources */,
+				C5821CEB1F4B6884002E0CEE /* DataStore.swift in Sources */,
+				C5821CEF1F4C770B002E0CEE /* Image.swift in Sources */,
+				C572D9641F2BC51500C39DAD /* WeeklyPlannerTableViewCell.swift in Sources */,
+				C572D9621F2BC0B300C39DAD /* WeeklyPlannerViewController.swift in Sources */,
+				C5F1D2FD1F312D6D00FE65E6 /* ShoppingListViewController.swift in Sources */,
+				C530F0B61F40BD1A00B31C69 /* data.swift in Sources */,
+				C58779381F421E7A007610AA /* MealPlan.swift in Sources */,
+				C5D932561F28DD9400320384 /* RegisterViewController.swift in Sources */,
+				C5D932581F28E56000320384 /* PostViewController.swift in Sources */,
+				C5EF207D1F35CF55007C4997 /* AddRecipeViewController.swift in Sources */,
+				C5D9325A1F2B4FB700320384 /* PostTableViewCell.swift in Sources */,
+				C5821CE51F4AEE87002E0CEE /* CheckBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,8 +700,10 @@
 		};
 		C54AA5401F28CC7C009DC717 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D585A9314E1408F48E3BF481 /* Pods-dindin2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = FF33PD95EK;
 				INFOPLIST_FILE = dindin2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -432,8 +715,11 @@
 		};
 		C54AA5411F28CC7C009DC717 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B69DA785AFC38D997F136A9 /* Pods-dindin2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = FF33PD95EK;
 				INFOPLIST_FILE = dindin2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -445,6 +731,7 @@
 		};
 		C54AA5431F28CC7C009DC717 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC9713587570B824EA94E669 /* Pods-dindin2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +747,7 @@
 		};
 		C54AA5441F28CC7C009DC717 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD5D99643F8323E00952D4F /* Pods-dindin2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +763,7 @@
 		};
 		C54AA5461F28CC7C009DC717 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8B7270FE644963AB068312C /* Pods-dindin2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = FF33PD95EK;
@@ -489,6 +778,7 @@
 		};
 		C54AA5471F28CC7C009DC717 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F796DD1D6AF1128EBE5B33EF /* Pods-dindin2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = FF33PD95EK;
@@ -520,6 +810,7 @@
 				C54AA5411F28CC7C009DC717 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C54AA5421F28CC7C009DC717 /* Build configuration list for PBXNativeTarget "dindin2Tests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +819,7 @@
 				C54AA5441F28CC7C009DC717 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C54AA5451F28CC7C009DC717 /* Build configuration list for PBXNativeTarget "dindin2UITests" */ = {
 			isa = XCConfigurationList;
@@ -536,21 +828,9 @@
 				C54AA5471F28CC7C009DC717 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		C54AA51E1F28CC7C009DC717 /* dindin2.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				C54AA51F1F28CC7C009DC717 /* dindin2.xcdatamodel */,
-			);
-			currentVersion = C54AA51F1F28CC7C009DC717 /* dindin2.xcdatamodel */;
-			path = dindin2.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = C54AA50C1F28CC7C009DC717 /* Project object */;
 }

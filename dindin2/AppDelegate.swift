@@ -8,6 +8,9 @@
 
 import UIKit
 import CoreData
+import Firebase
+import HockeySDK
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +20,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        FirebaseApp.configure()
+        IQKeyboardManager.sharedManager().enable = true
+
+        
+        BITHockeyManager.shared().configure(withIdentifier: "7dd6f0b068784270a158d1a7cfe4a532")
+        // Do some additional configuration if needed here
+        BITHockeyManager.shared().start()
+        BITHockeyManager.shared().authenticator.authenticateInstallation()
+        
+        
         return true
     }
 
