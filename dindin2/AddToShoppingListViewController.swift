@@ -52,6 +52,7 @@ class AddToShoppingListViewController: UIViewController {
     }
     
     private func save(item: ShoppingItem) {
+        print("save")
         self.store.shoppingList.append(item)
         NSKeyedArchiver.archiveRootObject(self.store.shoppingList, toFile: filePath)
         NotificationCenter.default.post(name: NSNotification.Name(rawValue: "loadShoppingList"), object: nil)

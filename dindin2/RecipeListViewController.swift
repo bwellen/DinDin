@@ -38,43 +38,10 @@ class RecipeListViewController: UIViewController, UITableViewDelegate, UITableVi
         self.navigationController?.navigationBar.alpha = 0
         self.navigationController?.navigationBar.barTintColor = UIColor.white
         self.navigationController?.navigationBar.titleTextAttributes = [NSFontAttributeName: myFont, NSForegroundColorAttributeName: UIColor.black]
-        //self.navigationController?.navigationBar.setBackgroundImage(#imageLiteral(resourceName: "whatsForDinner"), for: .default)
-        
-        //name: System, size: 20
-        
 
-        /*
-        // Navigation Bar Characteristics
-        self.navigationController?.navigationBar.titleTextAttributes = [NSFontAttributeName: UIFont(name: "Helvetica", size: 20)!, NSForegroundColorAttributeName: UIColor.black]
-        */
         loadData()
         
-        
-        //self.postTableView.reloadData()
-        
-        /*
-        
-        Change Header to Black Background White Font with Brand Font
-        //self.navigationController?.navigationBar.alpha = 0
-        //self.navigationController?.navigationBar.barTintColor = UIColor.white
-        //self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.black, NSFontAttributeName: UIFont.systemFont(ofSize: 24.0)]
-    
-        
-        
-        //UIApplication.shared.statusBarStyle = .lightContent
-        //UIApplication.sharedApplication().statusBarStyle = .LightContent
-        
-        
-        self.navigationController?.navigationBar.alpha = 0
-        self.navigationController?.navigationBar.barTintColor = UIColor.white
-        self.navigationController?.navigationBar.titleTextAttributes = [NSFontAttributeName: UIFont(name: "Mistress Script", size: 25)!, NSForegroundColorAttributeName: UIColor.black]
-        
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
-        */
     }
     
     func loadData(){
@@ -198,9 +165,6 @@ class RecipeListViewController: UIViewController, UITableViewDelegate, UITableVi
         } else {
             isIndexValid = true
         }
-        //print("Is index valid?")
-        //print(isIndexValid)
-        //print(indexPath.row)
         
         if isIndexValid {
             cell.load.alpha = 0
@@ -214,59 +178,6 @@ class RecipeListViewController: UIViewController, UITableViewDelegate, UITableVi
         //Turn Image into a button
         cell.imageButton.setTitle(post["title"] as? String, for: .disabled)
         cell.imageButton.tag = indexPath.row
-
-        
-
-        
-/*
-         print("set text l.100")
-         //Turn Image into a button
-         cell.imageButton.setTitle(post["title"] as? String, for: .disabled)
-         if let imageName = post["image"] as? String {
-            print("Prepare to Download Image 1")
-            let imageRef = Storage.storage().reference().child("images/\(String(describing: imageName))")
-            print("images/\(String(describing: imageName))")
-            imageRef.getData(maxSize: 25 * 1024 * 1024, completion: { (data, error) -> Void in
-                if error == nil{
-                    //success
-                    print("we dled image")
-                    let image = UIImage(data: data!)
-                    cell.postImageView.image = image
-                    print("set image l.109")
-         
-                    cell.recipeTitleLabel.alpha = 0
-                    cell.recipeDetailTextView.alpha = 0
-                    cell.postImageView.alpha = 0
-         
-                    UIView.animate(withDuration: 0.3, animations: {
-                        cell.recipeTitleLabel.alpha = 1
-                        cell.recipeDetailTextView.alpha = 0
-                        cell.postImageView.alpha = 1
-                    })
-                } else {
-                    // failure
-                    print("Error dling image A: \(String(describing: error?.localizedDescription))")
-                }
-            })
-         }
- */
- 
-        
-        /*
-        
-        // Configure the cell
-        
-        let post = self.posts[indexPath.row] as! [String: AnyObject]
-        cell.recipeTitleLabel.text = post["title"] as? String
-        cell.recipeDetailTextView.text = post["content"] as? String
-        print(self.postsImageFile.count)
-        if self.postsImageFile.count > 0 {
-           cell.postImageView.image = self.postsImageFile[indexPath.row]
-        }
-        // = self.postsImageFile[0]
-        print("set text l.100")
-         
-        */
         
         return cell
     }
@@ -316,11 +227,9 @@ class RecipeListViewController: UIViewController, UITableViewDelegate, UITableVi
                 
                 NotificationCenter.default.post(name: NSNotification.Name(rawValue: "loadShoppingList"), object: nil)
                 
-                /*
                 let vc = self.storyboard?.instantiateViewController(withIdentifier: "TabBarVC") as! UITabBarController
-                vc.selectedIndex = 2
+                vc.selectedIndex = 1
                 self.present(vc, animated: true, completion: nil)
-                */
                 
             }))
  
@@ -331,9 +240,6 @@ class RecipeListViewController: UIViewController, UITableViewDelegate, UITableVi
             
         //alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         self.present(alert, animated: true, completion: nil)
-        
-        
-        
 
     }
 
@@ -352,57 +258,6 @@ class RecipeListViewController: UIViewController, UITableViewDelegate, UITableVi
         self.store.imageList.append(imageObject)
         NSKeyedArchiver.archiveRootObject(self.store.imageList, toFile: filePath)
     }
-    
-    /*
-    private func loadMealPlan() -> [MealPlan]? {
-        return NSKeyedArchiver.unarchiveObject(withFile: MealPlan.ArchiveURL.path) as? [MealPlan]
-        //NSKeyedArchiver.u
-    }
-    */
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
 

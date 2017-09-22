@@ -530,6 +530,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Shopping List" id="5ab-7n-Iu9">
+                        <barButtonItem key="leftBarButtonItem" systemItem="trash" id="igG-2w-iEC">
+                            <connections>
+                                <action selector="deleteShoppingList:" destination="R11-gg-Jjh" id="F9q-RB-gO0"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="3kJ-7h-LaD">
                             <connections>
                                 <action selector="addToList:" destination="R11-gg-Jjh" id="Qx9-v2-rhl"/>
@@ -817,7 +822,7 @@
             <objects>
                 <navigationController storyboardIdentifier="postVC" automaticallyAdjustsScrollViewInsets="NO" id="XOB-zq-cCr" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MHl-1V-Zbr">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="MHl-1V-Zbr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -836,7 +841,7 @@
                 <navigationController storyboardIdentifier="RecipeListVC" automaticallyAdjustsScrollViewInsets="NO" id="sZx-Ya-5vZ" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Inspiration" image="meal" id="Fu3-ZY-CuD"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="igp-ba-K7J">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="igp-ba-K7J">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -855,7 +860,7 @@
                 <navigationController storyboardIdentifier="ShoppingList" automaticallyAdjustsScrollViewInsets="NO" id="4i5-NE-Gld" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Shopping List" image="shoppingCart" id="pZQ-t1-vll"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RPz-zf-sOm">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="RPz-zf-sOm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -874,7 +879,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9i3-2d-1nD" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="User" image="user" id="26s-oh-8Tm"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xDB-gk-qRf">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="xDB-gk-qRf">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -893,7 +898,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BlJ-6a-fdT" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Meal Plan" image="mealPlan" id="Lr1-dP-CwO"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Piq-38-Ky6">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Piq-38-Ky6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -911,7 +916,7 @@
             <objects>
                 <navigationController storyboardIdentifier="addRecipeTwo" automaticallyAdjustsScrollViewInsets="NO" id="Rze-sY-xGF" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ElK-zD-lnt">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ElK-zD-lnt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -929,7 +934,7 @@
             <objects>
                 <navigationController storyboardIdentifier="addToShoppingList" automaticallyAdjustsScrollViewInsets="NO" id="nld-tN-I4c" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="z2c-Lh-fsI">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="z2c-Lh-fsI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -947,7 +952,7 @@
             <objects>
                 <navigationController storyboardIdentifier="recipeWebView" automaticallyAdjustsScrollViewInsets="NO" id="aJy-Hc-UUv" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="o1R-d0-QFn">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="o1R-d0-QFn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

@@ -20,10 +20,9 @@ class MealPlan: NSObject, NSCoding {
     var photo: UIImage?
     
     // MARK: Archiving Paths
+    
     static let DocumentsDirectory = FileManager().urls(for: .documentDirectory, in: .userDomainMask).first!
     static let ArchiveURL = DocumentsDirectory.appendingPathComponent("mealPlan")
-    
-    
     
     // MARK: Types
     

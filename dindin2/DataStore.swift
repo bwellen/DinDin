@@ -14,4 +14,6 @@ class DataStore {
     private init(){}
     var shoppingList: [ShoppingItem] = []
     var imageList: [Image] = []
+    
+    
 }

@@ -45,6 +45,12 @@ class WeeklyPlannerViewController: UIViewController, UITableViewDelegate, UITabl
         let url = manager.urls(for: .documentDirectory, in: .userDomainMask).first
         return (url!.appendingPathComponent("Images").path)
     }
+    
+    var filePath2: String {
+        let manager = FileManager.default
+        let url = manager.urls(for: .documentDirectory, in: .userDomainMask).first
+        return (url!.appendingPathComponent("ShoppingList").path)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -292,7 +298,7 @@ class WeeklyPlannerViewController: UIViewController, UITableViewDelegate, UITabl
                     print(ingredientsArray.count)
                 
                     for i in 0..<ingredientsArray.count {
-                        var newItem = ShoppingItem(item: ingredientsArray[i])
+                        let newItem = ShoppingItem(item: ingredientsArray[i])
                         self.save(item: newItem)
                         print("\(i) : \(ingredientsArray[i])")
                     }
@@ -305,6 +311,8 @@ class WeeklyPlannerViewController: UIViewController, UITableViewDelegate, UITabl
                 let vc = self.storyboard?.instantiateViewController(withIdentifier: "TabBarVC") as! UITabBarController
                 vc.selectedIndex = 2
                 self.present(vc, animated: true, completion: nil)
+                
+
                 //self.present(vc!, animated: true, completion: nil)
                 
                 
@@ -367,9 +375,7 @@ class WeeklyPlannerViewController: UIViewController, UITableViewDelegate, UITabl
                         vc.selectedIndex = 1
                         self.present(vc, animated: true, completion: nil)
                         
-                        
-                        
-                        
+
                         //let vc = self.storyboard?.instantiateViewController(withIdentifier: "TabBarVC")
                         //self.tabBarController?.selectedIndex = 1
                         //self.present(vc!, animated: true, completion: nil)
@@ -384,9 +390,6 @@ class WeeklyPlannerViewController: UIViewController, UITableViewDelegate, UITabl
                 //alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                 self.present(alert3, animated: true, completion: nil)
 
-                
-                
-                
             }))
 
             
@@ -410,15 +413,14 @@ class WeeklyPlannerViewController: UIViewController, UITableViewDelegate, UITabl
         }
         
         
-        
-        
-        
     }
     
     private func save(item: ShoppingItem) {
         self.store.shoppingList.append(item)
-        NSKeyedArchiver.archiveRootObject(self.store.shoppingList, toFile: filePath)
-        print(self.store.shoppingList)
+        NSKeyedArchiver.archiveRootObject(self.store.shoppingList, toFile: filePath2)
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "loadShoppingList"), object: nil)
+        //print(self.store.shoppingList)
+        
     }
     
     

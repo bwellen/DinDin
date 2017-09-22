@@ -104,6 +104,22 @@ class ShoppingListViewController: UIViewController, UITableViewDelegate, UITable
         NSKeyedArchiver.archiveRootObject(self.store.shoppingList, toFile: filePath)
     }
     
+    
+    @IBAction func deleteShoppingList(_ sender: UIBarButtonItem) {
+        print("in delete")
+        // Create Fetch Request
+        self.store.shoppingList.removeAll()
+        NSKeyedArchiver.archiveRootObject(self.store.shoppingList, toFile: filePath)
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "loadShoppingList"), object: nil)
+        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "TabBarVC") as! UITabBarController
+        vc.selectedIndex = 2
+        self.present(vc, animated: true, completion: nil)
+
+        
+    }
+    
+    
     /*
     // MARK: - Navigation
 
